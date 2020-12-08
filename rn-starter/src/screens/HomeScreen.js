@@ -21,10 +21,15 @@ const HomeScreen = ({navigation}) => {
     title="Go to Counter Demo"
     onPress={() => navigation.navigate('Counter')}
   />
+  
    <Button
     title="Go to Color Demo"
     onPress={() => navigation.navigate('Color')}
   />
+   <Button
+    title="Go to Square Demo"
+    onPress={() => navigation.navigate('Square')}
+    />
 </View>
 };
 
@@ -34,4 +39,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default HomeScreen;
+export default HomeScreen
